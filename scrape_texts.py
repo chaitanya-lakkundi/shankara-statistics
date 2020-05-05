@@ -44,15 +44,54 @@ s = requests.Session()
 
 
 def check_shloka_body(body):
+    # Generally the first shloka contains intro details such as title and the like along with the actual shloka.
+    # The last shloka also often contains additional details after shloka.
+    # Need to strip them off. Either manually or automatically.
     pass
+
+
+def scrape_shlokas(link):
+    corpus = {}
+    data = s.get(link).text
+    soup = BeautifulSoup(data, "html.parser")
+    options = soup.select("#edit-field-text-tid")[0].find_all("option")
+
+    for option in options:
+        if option.get("selected","") == "selected":
+            corpus["name"] = option.text
+            break
+
+    body = [b.text.strip() for b in soup.select(".views-field-body")]
+    corpus["body"] = body
+
+    return corpus
 
 
 def scrape(link, selector_id):
-    pass
+    data = s.get(link).text
+    soup = BeautifulSoup(data, "html.parser")
+    selector_name = soup.select("#edit-field-text-tid")[0].get("name")
+    options = soup.select("#edit-field-text-tid")[0].find_all("option")
+    sub_links = []
+
+    for option in options:
+        sub_links.append(link + "?language=dv&" + selector_name + "=" + option.get("value"))
+
+    # Even though the first page is fetched once again in the following loop, it is intentionally done so to separate functionalities.
+
+    corpora = []
+
+    for sl in sub_links:
+        corpus = scrape_shlokas(sl)
+        corpora.append(corpus)
 
 
 def get_chandas(shloka):
-    # Given a shloka input, return the meter or chandas obtained from shreevatsa sanskrit meters appspot website.
+    # Given a shloka input, return the meter or chandas obtained from shreevatsa sanskrit meters and ksu-shloka-architect.
+    
+    # https://sanskritmetres.appspot.com/
+    
+    # Within a text, if only one or two different chandas are found, then notify for manual verification
     pass
 
 
