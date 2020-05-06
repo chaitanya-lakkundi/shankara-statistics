@@ -1,0 +1,27 @@
+{
+  "name": "प्रबोधसुधाकरः",
+  "filename": "praboXasuXAkaraH",
+  "source_file": "corpus/preliminary-texts/praboXasuXAkaraH.json",
+  "url": "https://www.sankara.iitk.ac.in/preliminary-texts?language=dv&field_text1_tid=85",
+  "freq_chandas": {
+    "Upagīti": 101,
+    "Āryā": 87,
+    "Udgīti": 16,
+    "tāvuri": 3,
+    "nārī": 1,
+    "vainasam": 1,
+    "paṅkti": 1,
+    "kanyā": 2,
+    "Gīti": 21,
+    "Āryā (loose schema)": 3,
+    "madhumārakam": 1,
+    "jatu": 1,
+    "kṣupam": 1,
+    "Śārdūlavikrīḍitam": 8,
+    "hāsikā": 2,
+    "satī": 3,
+    "hali": 1,
+    "Śikhariṇī": 2,
+    "kumbhāri": 2
+  }
+}

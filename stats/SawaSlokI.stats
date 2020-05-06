@@ -1,0 +1,12 @@
+{
+  "name": "शतश्लोकी",
+  "filename": "SawaSlokI",
+  "source_file": "corpus/preliminary-texts/SawaSlokI.json",
+  "url": "https://www.sankara.iitk.ac.in/preliminary-texts?language=dv&field_text1_tid=96",
+  "freq_chandas": {
+    "Sragdharā": 93,
+    "kumbhāri": 6,
+    "bhrūḥ": 1,
+    "alipadam": 1
+  }
+}

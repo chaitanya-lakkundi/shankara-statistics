@@ -1,0 +1,23 @@
+{
+  "name": "योगतारावली",
+  "filename": "yogawArAvalI",
+  "source_file": "corpus/preliminary-texts/yogawArAvalI.json",
+  "url": "https://www.sankara.iitk.ac.in/preliminary-texts?language=dv&field_text1_tid=93",
+  "freq_chandas": {
+    "śālā": 2,
+    "Upajāti": 2,
+    "viparītākhyānikī": 2,
+    "rāmā": 3,
+    "indravajrā": 4,
+    "bālā": 2,
+    "jāyā": 1,
+    "kīrtiḥ": 3,
+    "ārdrā": 2,
+    "ākhyānikī": 1,
+    "upendravajrā": 3,
+    "māyā": 1,
+    "premā": 1,
+    "tāvuri": 1,
+    "Mālinī": 1
+  }
+}

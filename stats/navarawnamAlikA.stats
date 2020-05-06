@@ -1,0 +1,11 @@
+{
+  "name": "नवरत्नमालिका",
+  "filename": "navarawnamAlikA",
+  "source_file": "corpus/devi-devotional-hyms/navarawnamAlikA.json",
+  "url": "https://www.sankara.iitk.ac.in/devi-devotional-hyms?language=dv&field_text_tid=39",
+  "freq_chandas": {
+    "kanakamālikā": 8,
+    "vainasam": 1,
+    "Rathoddhatā": 1
+  }
+}

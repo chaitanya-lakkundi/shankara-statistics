@@ -1,0 +1,10 @@
+{
+  "name": "भगवन्मानसपूजा",
+  "filename": "BagavanmAnasapUjA",
+  "source_file": "corpus/vishnu-devotional-hyms/BagavanmAnasapUjA.json",
+  "url": "https://www.sankara.iitk.ac.in/vishnu-devotional-hyms?language=dv&field_text_tid=45",
+  "freq_chandas": {
+    "Śikhariṇī": 8,
+    "bhrūḥ": 2
+  }
+}

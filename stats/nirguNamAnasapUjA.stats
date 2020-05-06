@@ -1,0 +1,12 @@
+{
+  "name": "निर्गुणमानसपूजा",
+  "filename": "nirguNamAnasapUjA",
+  "source_file": "corpus/miscellaneous-devotional-hymns/nirguNamAnasapUjA.json",
+  "url": "https://www.sankara.iitk.ac.in/miscellaneous-devotional-hymns?language=dv&field_text_tid=23",
+  "freq_chandas": {
+    "Anuṣṭup (Śloka)": 30,
+    "tāvuri": 1,
+    "Vasantatilakā": 1,
+    "dolā": 1
+  }
+}

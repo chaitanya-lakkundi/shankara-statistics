@@ -1,0 +1,11 @@
+{
+  "name": "स्वात्मनिरुपणम्",
+  "filename": "svAwmanirupaNam",
+  "source_file": "corpus/preliminary-texts/svAwmanirupaNam.json",
+  "url": "https://www.sankara.iitk.ac.in/preliminary-texts?language=dv&field_text1_tid=100",
+  "freq_chandas": {
+    "Gīti": 152,
+    "kumbhāri": 1,
+    "chidram": 1
+  }
+}

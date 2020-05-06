@@ -179,14 +179,32 @@ def calculate_statistics():
 
         chandas_list = []
         
-        for shloka in corpus["body"]:
-            chandas = get_chandas(shloka)
-            chandas_list.append(chandas)
+        if not corpus["chandas_list"]:
+            for shloka in corpus["body"]:
+                    chandas = get_chandas(shloka)
+                    chandas_list.append(chandas)
 
-        corpus["chandas_list"] = chandas_list
+            corpus["chandas_list"] = chandas_list
 
-        with open(cfilename, "w") as fd:
-            json.dump(corpus, fd, ensure_ascii=False, indent=2)
+            with open(cfilename, "w") as fd:
+                json.dump(corpus, fd, ensure_ascii=False, indent=2)
+
+        # Calculate the frequency of chandas
+        freq_chandas = {}
+
+        for chandas in corpus["chandas_list"]:
+            freq_chandas[chandas] = freq_chandas.get(chandas, 0) + 1
+
+        data = {}
+        data["name"] = corpus["name"]
+        data["filename"] = corpus["filename"]
+        data["source_file"] = cfilename
+        data["url"] = corpus["url"]
+        data["freq_chandas"] = freq_chandas
+
+        makedirs("stats", exist_ok=True)
+        with open("stats/" + corpus["filename"] + ".stats", "w") as fd:
+            json.dump(data, fd, ensure_ascii=False, indent=2)
 
 
 def main():

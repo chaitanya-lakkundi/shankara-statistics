@@ -1,0 +1,3 @@
+[submodule "vendor/shreevatsa_sanskrit_meters"]
+	path = vendor/shreevatsa_sanskrit_meters
+	url = https://github.com/shreevatsa/sanskrit/

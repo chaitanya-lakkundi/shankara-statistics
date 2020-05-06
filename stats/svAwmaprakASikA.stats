@@ -1,0 +1,15 @@
+{
+  "name": "स्वात्मप्रकाशिका",
+  "filename": "svAwmaprakASikA",
+  "source_file": "corpus/preliminary-texts/svAwmaprakASikA.json",
+  "url": "https://www.sankara.iitk.ac.in/preliminary-texts?language=dv&field_text1_tid=98",
+  "freq_chandas": {
+    "Anuṣṭup (Śloka)": 59,
+    "tāvuri": 1,
+    "māyā": 1,
+    "indravajrā": 1,
+    "Upajāti": 2,
+    "satī": 1,
+    "Rathoddhatā": 3
+  }
+}

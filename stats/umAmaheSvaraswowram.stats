@@ -1,0 +1,13 @@
+{
+  "name": "उमामहेश्वरस्तोत्रम्",
+  "filename": "umAmaheSvaraswowram",
+  "source_file": "corpus/shiva-devotional-hyms/umAmaheSvaraswowram.json",
+  "url": "https://www.sankara.iitk.ac.in/shiva-devotional-hyms?language=dv&field_text_tid=66",
+  "freq_chandas": {
+    "upendravajrā": 5,
+    "premā": 3,
+    "ṛddhiḥ": 2,
+    "ārdrā": 2,
+    "vārddhi": 1
+  }
+}

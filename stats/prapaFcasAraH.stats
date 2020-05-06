@@ -1,0 +1,20 @@
+{
+  "name": "प्रपञ्चसारः",
+  "filename": "prapaFcasAraH",
+  "source_file": "corpus/comprehensive-texts/prapaFcasAraH.json",
+  "url": "https://www.sankara.iitk.ac.in/comprehensive-texts?language=dv&field_text2_tid=104",
+  "freq_chandas": {
+    "Mālinī": 1,
+    "upendravajrā": 3,
+    "Anuṣṭup (Śloka)": 84,
+    "tāvuri": 2,
+    "Gīti": 5,
+    "Śālinī": 2,
+    "Puṣpitāgrā": 1,
+    "kīrtiḥ": 1,
+    "Aupacchandasikam": 1,
+    "kumbhāri": 2,
+    "Śārdūlavikrīḍitam": 1,
+    "śālā": 1
+  }
+}

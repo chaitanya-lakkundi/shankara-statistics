@@ -1,0 +1,10 @@
+{
+  "name": "वेदसारशिवस्तोत्रम्",
+  "filename": "vexasAraSivaswowram",
+  "source_file": "corpus/shiva-devotional-hyms/vexasAraSivaswowram.json",
+  "url": "https://www.sankara.iitk.ac.in/shiva-devotional-hyms?language=dv&field_text_tid=67",
+  "freq_chandas": {
+    "Bhujaṅgaprayātam": 9,
+    "Vasantatilakā": 2
+  }
+}
